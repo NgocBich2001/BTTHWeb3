@@ -1,34 +1,114 @@
-.divchinh{background-color: white; height: 600px; width: 95%; margin-top: 30PX; margin-left: 20px;}
-.div80{width:80%; float:left; height:100%; background-color:white;}
-.divtieude{height: 50px; width: 200px; float: left; font-size: 20px; font-weight: bold; color: white;}
-.imgdiv1{width:90%; height: 100px;}
-.td1div1{height: 100px; width: 30%;}
-.td2div1{font-weight: bold; font-size: 20px; height: 100px; width: 70%;}
-.div4{height: 350px; width: 100%; margin-left: 15px; text-align: center;}
-.div4left{height: 350px; width: 50%; float: left; color: green;}
-.div4right{height: 350px; width: 50%; float: right; color: blue;}
-.imgdiv4{width:70%; height: 70%;}
-.div6{height: 60px; width: 100%; text-align: left; font-size: 20px; color: white; font-weight: bold;}
-#menu ul {
+.divchinh
+{
+    background-color: white; 
+    height: 600px; 
+    width: 95%; 
+    margin-top: 30PX; 
+    margin-left: 20px;
+}
+
+.div80
+{
+    width:80%; 
+    float:left; 
+    height:100%; 
+    background-color:white;
+}
+
+.divtieude
+{
+    height: 50px; 
+    width: 200px; 
+    float: left; 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: white;
+}
+
+.imgdiv1
+{
+    width:90%; 
+    height: 100px;
+}
+
+.td1div1
+{
+    height: 100px; 
+    width: 30%;
+}
+
+.td2div1
+{
+    font-weight: bold; 
+    font-size: 20px; 
+    height: 100px; 
+    width: 70%;
+}
+
+.div4
+{
+    height: 350px; 
+    width: 100%; 
+    margin-left: 15px; 
+    text-align: center;
+}
+
+.div4left
+{
+    height: 350px; 
+    width: 50%; 
+    float: left; 
+    color: green;
+}
+
+.div4right
+{
+    height: 350px; 
+    width: 50%; 
+    float: right; 
+    color: blue;
+}
+
+.imgdiv4
+{
+    width:70%; 
+    height: 70%;
+}
+
+.div6
+{
+    height: 60px; 
+    width: 100%; 
+    text-align: left; 
+    font-size: 20px; 
+    color: white; 
+    font-weight: bold;
+}
+
+#menu ul
+{
     background-color: black;
 }
 
-#menu a {
+#menu a 
+{
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
 
-#menu>ul>li {
+#menu>ul>li 
+{
     display: inline-block;
     font-size: 14px;
-    line-height: 60px;
-    width: 210px;
+    line-height: 50px;
+    width: 190px;
     position: relative;
     text-align: center;
 }
 
-.submenu li {
+.submenu li 
+{
     font-size: 14px;
     line-height: 30px;
     width: 200px;
@@ -38,7 +118,8 @@
     padding-left: 5px;
 }
 
-#menu ul li:hover {
+#menu ul li:hover 
+{
     background-color: red;
 }
 
@@ -46,4 +127,16 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+}
+
+.foot
+{
+    background-color: gray; 
+    height: 100px; 
+    width: 95%; 
+    padding-top: 20px; 
+    float: center; 
+    text-align: center; 
+    font-size: 20px; 
+    bottom: 0px;
 }
